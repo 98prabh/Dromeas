@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CommonLanding"></activity>
+        <activity android:name=".ImportFromCamera"></activity>
+        <activity android:name=".ImportFromEditor" />
+        <activity android:name=".ImportFromGallery" />
+        <activity android:name=".CommonLanding" />
         <activity android:name=".LanguageOption" />
         <activity android:name=".MainActivity">
             <intent-filter>
