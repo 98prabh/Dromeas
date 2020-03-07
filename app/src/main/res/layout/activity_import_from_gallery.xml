@@ -5,21 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/dormeas"
     android:gravity="center_horizontal"
     tools:context=".ImportFromGallery">
 
 
     <ImageView
         android:id="@+id/galleryimage"
-        android:layout_width="400dp"
-        android:layout_height="500dp"
+        android:src="@drawable/ic_image_black_24dp"
+        android:scaleType="centerCrop"
+        android:layout_width="399dp"
+        android:layout_height="429dp"
         android:layout_marginTop="70dp" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+    <Button
+        android:id="@+id/getimage"
+        android:layout_width="173dp"
+        android:layout_height="92dp"
+        android:background="@drawable/buttonshape"
+        android:fallbackLineSpacing="true"
+        android:text="CHOOSE IMAGE"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:fontFamily="@font/berkshire_swash" />
+
 
 </LinearLayout>
